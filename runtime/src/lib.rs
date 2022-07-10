@@ -228,8 +228,8 @@ pub mod fee {
 }
 
 pub const VERSION: RuntimeVersion = RuntimeVersion {
-	spec_name: create_runtime_str!("reef"),
-	impl_name: create_runtime_str!("reef"),
+	spec_name: create_runtime_str!("dfinn-node"),
+	impl_name: create_runtime_str!("dfinn"),
 	authoring_version: 1,
 	spec_version: 9,
 	impl_version: 9,

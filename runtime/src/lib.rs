@@ -589,7 +589,7 @@ static ISTANBUL_CONFIG: evm::Config = evm::Config::istanbul();
 parameter_types! {
 	//In [3]: random.randint(1000, 100_000)
 	//Out[3]: 13939
-	pub const ChainId: u64 = 13939;
+	pub const ChainId: u64 = 1995;
 	// 10 REEF minimum storage deposit
 	pub const NewContractExtraBytes: u32 = 1_000;
 	pub const StorageDepositPerByte: Balance = 10 * MILLI_REEF;
